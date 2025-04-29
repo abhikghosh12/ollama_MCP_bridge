@@ -1,0 +1,114 @@
+{
+  "mcpServers": {
+    "duckduckgo-mcp-server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@nickclyde/duckduckgo-mcp-server",
+        "--key",
+        "8f23cffc-92d0-44e8-b6c9-14819c3d5c31"
+      ]
+    },
+    "mcp-installer": {
+      "command": "npx",
+      "args": [
+        "@anaisbetts/mcp-installer"
+      ]
+    },
+    "mcp-server-airbnb": {
+      "command": "npx",
+      "args": [
+        "@openbnb/mcp-server-airbnb",
+        "--ignore-robots-txt"
+      ]
+    },
+    "mcp-server-firecrawl": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@mendableai/mcp-server-firecrawl",
+        "--config",
+        "\"{\\\"fireCrawlApiKey\\\":\\\"fc-2ef8e275685a4c2b963b002a3ecd7fb3\\\"}\""
+      ]
+    },
+    "mcp-browserbase": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@browserbasehq/mcp-browserbase",
+        "--key",
+        "8f23cffc-92d0-44e8-b6c9-14819c3d5c31"
+      ]
+    },
+    "playwright-mcp": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@microsoft/playwright-mcp",
+        "--key",
+        "8f23cffc-92d0-44e8-b6c9-14819c3d5c31"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\",
+        "C:\\Users\\abhik",
+        "C:\\Users\\abhik\\Documents",
+        "C:\\Users\\abhik\\OneDrive\\Desktop",
+        "C:\\Users\\abhik\\AppData\\Roaming\\Claude"
+      ]
+    },
+    "server-memory": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-memory"
+      ]
+    },
+    "server-github": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "server-gmail-autoauth-mcp": {
+      "command": "npx",
+      "args": [
+        "@gongrzhe/server-gmail-autoauth-mcp"
+      ]
+    },
+    "outlook-calendar-mcp": {
+      "command": "npx",
+      "args": [
+        "outlook-calendar-mcp"
+      ]
+    },
+    "ElevenLabs": {
+      "command": "uvx",
+      "args": [
+        "elevenlabs-mcp"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "sk_c095c0a04aad1f4451b2e9d98190c902d92cfc45d1ef126b"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm files
+.idea/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Local development settings
+.env
+
+# Logs
+*.log
+
+# Cache files
+mcp_tools_cache.json
+mcp_tools_cache_backup.json
